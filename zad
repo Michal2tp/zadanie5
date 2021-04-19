@@ -1,0 +1,34 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main(int argc, char** argv)
+
+{
+int a, b, c;
+
+double pitagoras;
+
+cout << " Podaj pierwszy bok trojkata " << endl;
+
+cin >> a;
+
+cout << " Podaj drugi bok trojkata " << endl;
+
+cin >> b;
+
+cout << " Podaj trzeci bok trojkata " << endl;
+
+cin >> c;
+
+if ( a==b && b==c && a==c )
+cout << " Obliczam pitagoras:" << endl;
+pitagoras = a*a + b*b == c*c;
+cout << "Pitagoras:" << pitagoras << endl;
+
+
+
+
+
+
+return 0;
+}
